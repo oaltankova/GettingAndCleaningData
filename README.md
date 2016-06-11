@@ -1,5 +1,5 @@
 # GettingAndCleaningData
-author: "OAltankova"
+author: O.Altankova
 
 ## Synopsis
 The purpose of this project is to prepare two sets of tidy data that can be used for later analysis. 
