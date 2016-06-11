@@ -1,4 +1,4 @@
-# Getting And Cleaning Data - readme.md
+# GettingAndCleaningData - Code Book
 author: O.Altankova
 
 ## Synopsis
