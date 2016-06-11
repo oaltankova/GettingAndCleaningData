@@ -103,7 +103,3 @@ print("Creates a second, independent secondTidyData tidy data set with the
 ##    The second tidy data 
 meltdata<-melt(tidyData, id=1:2, measure.var=3:ncol(tidyData))
 secondTidyData <- dcast(meltdata, subjectid+activityname~variable, mean)
-if(file.exists("second_tidy_data.txt")) {
-        file.remove("second_tidy_data.txt")
-}
-write.table(secondTidyData, file = "second_tidy_data.txt", row.names = FALSE)
